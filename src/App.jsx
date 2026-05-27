@@ -8,6 +8,9 @@ import Milestone from './pages/PathA/Milestone'
 import Goal from './pages/PathA/Goal'
 import ObjectivePage from './pages/PathA/ObjectivePage'
 import DailyActionPage from './pages/PathA/DailyActionPage'
+import ReviewPage from './pages/PathA/ReviewPage'
+import DashboardPage from './pages/PathA/DashboardPage'
+import RecoveryPage from './pages/PathA/RecoveryPage'
 
 export default function App() {
   return (
@@ -19,10 +22,12 @@ export default function App() {
         <Route path="/vision" element={<Vision />} />
         <Route path="/mission" element={<Mission />} />
         <Route path="/milestone" element={<Milestone />} />
-        <Route path="/goal" element={<Goal/>} />
+        <Route path="/goal" element={<Goal />} />
         <Route path="/objective" element={<ObjectivePage />} />
         <Route path="/daily-action" element={<DailyActionPage />} />
         <Route path="/review" element={<ReviewPage />} />
+        <Route path="/dashboard" element={<DashboardPage />} />
+        <Route path="/recovery" element={<RecoveryPage />} />
       </Routes>
     </BrowserRouter>
   )
