@@ -5,6 +5,9 @@ import DreamValidation from './pages/PathA/DreamValidation'
 import Vision from './pages/PathA/Vision'
 import Mission from './pages/PathA/Mission'
 import Milestone from './pages/PathA/Milestone'
+import Goal from './pages/PathA/Goal'
+import ObjectivePage from './pages/PathA/ObjectivePage'
+import DailyActionPage from './pages/PathA/DailyActionPage'
 
 export default function App() {
   return (
@@ -16,6 +19,10 @@ export default function App() {
         <Route path="/vision" element={<Vision />} />
         <Route path="/mission" element={<Mission />} />
         <Route path="/milestone" element={<Milestone />} />
+        <Route path="/goal" element={<Goal/>} />
+        <Route path="/objective" element={<ObjectivePage />} />
+        <Route path="/daily-action" element={<DailyActionPage />} />
+        <Route path="/review" element={<ReviewPage />} />
       </Routes>
     </BrowserRouter>
   )
