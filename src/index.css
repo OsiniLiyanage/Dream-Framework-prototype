@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  /* Backgrounds */
+  --color-bg-base: #FAF9F6;
+  --color-bg-surface: #FFFFFF;
+  --color-bg-warm: #F5F3EE;
+  --color-border: #E8E4DC;
+
+  /* Ink */
+  --color-ink-primary: #1C1917;
+  --color-ink-secondary: #78716C;
+  --color-ink-tertiary: #A8A29E;
+
+  /* Hierarchy */
+  --color-dream: #1E3A5F;
+  --color-vision: #0F5E52;
+  --color-mission: #5B2D8E;
+  --color-milestone: #92400E;
+  --color-goal: #B45309;
+  --color-objective: #166534;
+  --color-action: #065F46;
+
+  /* States */
+  --color-recovery: #991B1B;
+
+  /* Fonts */
+  --font-main: 'Inter', sans-serif;
+  --font-sinhala: 'Noto Sans Sinhala', sans-serif;
+}
+
+body {
+  background-color: #FAF9F6;
+  color: #1C1917;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-sinhala {
+  font-family: 'Noto Sans Sinhala', sans-serif;
+  line-height: 1.9;
+}
