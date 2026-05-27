@@ -4,6 +4,7 @@ import DreamEntry from './pages/PathA/DreamEntry'
 import DreamValidation from './pages/PathA/DreamValidation'
 import Vision from './pages/PathA/Vision'
 import Mission from './pages/PathA/Mission'
+import Milestone from './pages/PathA/Milestone'
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/path-a/validate" element={<DreamValidation />} />
         <Route path="/vision" element={<Vision />} />
         <Route path="/mission" element={<Mission />} />
+        <Route path="/milestone" element={<Milestone />} />
       </Routes>
     </BrowserRouter>
   )
